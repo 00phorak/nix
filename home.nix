@@ -82,7 +82,11 @@
     # EDITOR = "emacs";
   };
 
-  home.sessionPath = [ "/home/phorak/.local/bin" ];
+  home.sessionPath = [
+    "/home/phorak/.local/bin"
+    "/home/phorak/personal/bin/zig"
+    "/home/phorak/personal/bin/zls"
+  ];
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
